@@ -12,97 +12,72 @@ Interested in Bootstrap junior frontend development and also a highly independen
 
 ---
 
-<style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes hi  {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
 
-.container {
-  position: relative;
-  width: 350px;
-  margin: 50px auto;
-  perspective: 1000px;
-  padding-top: 120px;
-}
-.rotator {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 55%;
-  height: 150px;
-  transform-style: preserve-3d;
-  animation: roter 17s linear infinite;
-}
-.rotator:hover {
-  animation-play-state: paused;
-}
-@keyframes roter {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-.items {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  border: 2px solid #333;
-}
-.items:hover img {
-  transform: scale(1.2);
-}
-.items img {
-  height: 100%;
-  width: 100%;
-  transition: all 3s ease;
-}
-.items:first-child {
-  transform: rotateY(calc(40deg * 1)) translateZ(300px);
-}
-.items:nth-child(2) {
-  transform: rotateY(calc(40deg * 2)) translateZ(300px);
-}
-.items:nth-child(3) {
-  transform: rotateY(calc(40deg * 3)) translateZ(300px);
-}
-.items:nth-child(4) {
-  transform: rotateY(calc(40deg * 4)) translateZ(300px);
-}
-.items:nth-child(5) {
-  transform: rotateY(calc(40deg * 5)) translateZ(300px);
-}
-.items:nth-child(6) {
-  transform: rotateY(calc(40deg * 6)) translateZ(300px);
-}
-.items:nth-child(7) {
-  transform: rotateY(calc(40deg * 7)) translateZ(300px);
-}
-.items:nth-child(8) {
-  transform: rotateY(calc(40deg * 8)) translateZ(300px);
-}
-.items:nth-child(9) {
-  transform: rotateY(calc(40deg * 9)) translateZ(300px);
-}
-</style>
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
 
-<div class="container">
-  <div class="rotator">
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg" alt="items photo" /></div>
-    <div class="items"><img src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636__340.jpg" alt="items photo" /></div>
-  </div>
-</div>
+        .container {
+          background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+          background-size: 400% 400%;
+          animation: gradient 15s ease infinite;
+
+          width: 100%;
+          height: 300px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+
+        @media (prefers-reduced-motion) {
+          .container {
+            animation: none;
+          }
+
+          .hi {
+            animation: none;
+          }
+        }
+      </style>
+
+      <div class="container">
+        <h1>Hi there, just testing <div class="hi">👋</div></h1>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
 
 <!---
 - 👋 Hi, I’m @Nrba
