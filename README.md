@@ -2,13 +2,21 @@
 
 **`Aspiring Junior Developer/Tech Industry Worker`**
 
-Interested in Bootstrap junior frontend development and also a highly independent team player with a background in materials engineering, aiming to contribute to the success of hiring organisation via programming skills (Bootstrap, HTML, CSS, Ruby).
+Interested in junior frontend development (Bootstrap) and also a highly independent team player with a background in materials engineering, aiming to contribute to the success of hiring organisation via programming skills.
 
 <p align="left">
   <a href="https://github.com/Nrba?tab=followers">
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Nrba?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
   </a>
 </p>
+
+Counted contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
 
 Page under construction.
 
