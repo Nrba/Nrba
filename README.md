@@ -20,6 +20,8 @@ Counted contributions
 
 Page under construction.
 
+![snake gif](https://github.com/Nrba/Nrba/blob/output/github-contribution-grid-snake.gif)
+
 ---
 
 <style>
