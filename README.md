@@ -10,7 +10,7 @@ Interested in junior frontend development (Bootstrap) and also a highly independ
   </a>
 </p>
 
-![carousel svg](.github/workflows/icon_carousel.svg)
+![carousel svg](.github/workflows/carousel3.svg)
 
 ![snake gif](https://github.com/Nrba/Nrba/blob/output/github-contribution-grid-snake.svg)
 
