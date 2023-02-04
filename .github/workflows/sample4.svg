@@ -175,7 +175,7 @@
       <section id="slideshow">
         <div class="entire-content">
           <div class="content-carrousel">
-            <figure class="shadow">Test</figure>
+            <figure class="shadow"><img src="https://picsum.photos/200/300"></figure>
             <figure class="shadow">Test</figure>
             <figure class="shadow">Test</figure>
             <figure class="shadow">Test</figure>
